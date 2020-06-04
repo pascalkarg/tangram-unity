@@ -5,7 +5,7 @@ Tangram Unity
 
 Tangram Unity is a library of tools for using OpenStreetMap data in the Unity3D game engine. This repository contains the code and GUI tools along with an example scene that demonstrates how to use them.
 
-This project uses Unity version 2019.3.0f6.
+This project uses Unity version 2019.3.15f1.
 
 Quickstart
 -----------
