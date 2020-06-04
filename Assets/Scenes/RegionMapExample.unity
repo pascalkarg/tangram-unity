@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44282705, g: 0.49198186, b: 0.57175136, a: 1}
+  m_IndirectSpecularColor: {r: 0.44282755, g: 0.49198216, b: 0.571752, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 349009245}
   - component: {fileID: 349009244}
+  - component: {fileID: 349009246}
   m_Layer: 0
   m_Name: Map Builder
   m_TagString: Untagged
@@ -182,6 +183,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &349009246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349009243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164515ff9244bf8e58cf0341001d83ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 349009244}
+  expanse: 0.01
+  location: "N\xFCrnberg, Lorenzkirche"
 --- !u!1 &530800346
 GameObject:
   m_ObjectHideFlags: 0
